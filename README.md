@@ -1,6 +1,7 @@
 # Moving and Relocation Company Website
 
 ![Company Logo](path/to/logo.png)
+![Project Logo](https://github.com/dzopunk/intermove.rs/blob/main/img/Intermove_Logo_Relocation_Selidbe_Srbija_Crveni1.svg?raw=true)
 
 ## Overview
 

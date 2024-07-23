@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;300;400;500;600;700;800;900&family=Mulish:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+body[lang="en"] [lang="srb"],
+body[lang="srb"] [lang="en"] {
+  display: none;
+  visibility: hidden;
+}
+
+ul {
+  list-style: none;
+}
+button {
+  text-decoration: none;
+  border: none;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Alexandria", sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  hyphens: auto;
+  word-spacing: -0.05em;
+  color: var(--primary-black);
+}
+
+@media only screen and (min-width: 64em) {
+  body {
+    font-size: 2.5rem;
+  }
+}
+:root {
+  --primary-white: rgb(255, 255, 255);
+  --primary-black: rgb(35, 31, 32);
+  --primary-pink: rgba(255, 60, 68, 255);
+  --primary-red: rgb(273, 28, 36);
+  --fa-border-color: rgb(273, 28, 36);
+}
+
+.order {
+  order: 0;
+}
+@media only screen and (min-width: 48em) {
+  .order {
+    order: 10;
+  }
+}
+.fade-in {
+  opacity: 0;
+  transform: translateY(-2px);
+  transition: all 0.5s ease-in;
+}
+
+.appear {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.align-start {
+  text-align: start;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.langbtn {
+  cursor: pointer;
+}

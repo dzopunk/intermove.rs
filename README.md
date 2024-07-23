@@ -28,4 +28,4 @@ This project is a one-page website designed for a moving and relocation company 
 -Jovana Vučetić - jovucetic@gmail.com
 
 ## Live page
-- https://https://intermove.rs
+- https://intermove.rs
